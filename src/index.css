@@ -1,0 +1,304 @@
+body {
+  margin: auto;
+  padding: 0;
+  height: 1677px;
+  width: 1280px;
+  left: 253px;
+  top: -376px;
+  background: #0c0c0c;
+  border-radius: 0px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.Navbar {
+  background: #0c0c0c;
+  width: 1280px;
+  height: 105px;
+  display: inline-flex;
+}
+
+.logo {
+  width: 404px;
+  height: 100%;
+}
+.logo h2 {
+  font-family: "Comme";
+  font-size: 20px;
+  margin-left: 40px;
+  font-weight: 400;
+  color: #e5dfd9;
+  line-height: 28px;
+  letter-spacing: 0.55em;
+  text-align: left;
+}
+.menu {
+  background: #0c0c0c;
+  width: 652px;
+  left: 404px;
+  right: 404px;
+  height: 100%;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  display: inline-flex;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #e5dfd9;
+  margin-top: 69px;
+  margin-bottom: 18px;
+  left: 404px;
+  font-family: "Encode Sans";
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+.menu2 {
+  background: #0c0c0c;
+  width: 224px;
+  height: 104px;
+}
+.menu2 ul {
+  list-style-type: none;
+}
+.menu2 ul li {
+  display: inline-flex;
+}
+.menu2 ul li a i {
+  height: 30px;
+  width: 18px;
+  display: inline-flex;
+  left: 0px;
+  font-size:20px;
+  font-weight: 300px;
+  color:#E5DFD9;
+  z-index:999;
+  margin-right: 26px;
+  top: 3px;
+  border-radius: nullpx;
+}
+.menu2 ul li a i sup{
+  font-size:12px;
+  color:#E5DFD9;
+  margin-left: -8px;
+  margin-top: -5px;
+  font-weight:400;
+}
+.frame {
+  background: #0c0c0c;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 56px;
+  position: absolute;
+  width: 1248px;
+  height: 130px;
+  margin-left: 32px;
+  top: 137px;
+}
+.frame .card {
+  width: 93.5px;
+  height: 130px;
+}
+.frame .card img {
+  width: 100px;
+  margin-top: 0px;
+  height: 100px;
+}
+.frame .card h6 {
+  width: 110px;
+  margin-top: 5px;
+  font-family: Encode Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #e5dfd9;
+}
+
+.frame .card1 {
+  width: 50px;
+  height: 130px;
+}
+.frame .card1 img {
+  width: 50px;
+  margin-top: 0px;
+  height: 100px;
+}
+.frame .card1 h6 {
+  width: 65px;
+  margin-top: 5px;
+  font-family: Encode Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #e5dfd9;
+}
+
+.Product-menu {
+  width: 1254px;
+  margin-left: 0px;
+  margin-right: 15px;
+  margin-top: 170px;
+  display: inline-flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.Product-menu ul {
+  display: inline-flex;
+  height: 20px;
+}
+.Product-menu ul li a{
+  display: inline-flex;
+  text-decoration: none;
+  top: 299px;
+  list-style-type: none;
+  font-family: Encode Sans;
+  font-size: 16px;
+  color: #e5dfd9;
+  height: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin-right: 14px;
+}
+.Product-menu ul li a i{
+  font-size: 18px;
+}
+.Main-Window {
+  width: 1214px;
+  padding-left: 32px;
+  padding-right: 31.3px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow:hidden;
+  border: 2px solid white;
+  height: 1000px;
+}
+.cardn {
+  margin-top: 10px;
+  width: 283px;
+  margin-right:32px;
+  height: 483px;
+  border-radius: 20px;
+}
+.cardn .img1 {
+  width: 283px;
+  display: flex;
+  height: 370px;
+  z-index: 999;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+}
+.cardn .img1 .img2 {
+  width: 26px;
+  margin-top:20px;
+  font-size:30px;
+  background-color: transparent;
+  margin-left:-50px;
+  text-decoration: flex-end;
+  border:none;
+  height:34px;
+  z-index: 1;
+}
+.cardn .Name {
+  margin-top: 5px;
+  margin-left: 10px;
+  padding: 0;
+  width: 260px;
+  margin-bottom: 20px;
+  height: 26px;
+  font-family: Encode Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #e5dfd9;
+}
+.cardn .Name a{
+  text-decoration: none;
+  color: #e5dfd9;
+}
+.cardn .Price-sec {
+  margin-left: 10px;
+  display: inline-flex;
+  width: 259px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 30px;
+  height: 60px;
+  color: #e5dfd9;
+}
+.cardn .Price-sec .price a{
+  font-family: Encode Sans;
+  font-size: 19px;
+  text-decoration: none;
+  margin: 0;
+  display: inline-flex;
+  padding: 10px 5px 15px 10px;
+  font-weight: 700;
+  color: #e5dfd9;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+.cardn .Price-sec .margin {
+  font-family: Raleway;
+  font-size:11.96px;
+  height:20px;
+  margin-top:18px;
+  color: #E5DFD9;
+  text-decoration:line-through;
+  margin-left:5px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cardn .Price-sec .margin a{
+  text-decoration: none;
+  color: #E5DFD9;
+}
+.cardn .Price-sec .offer{
+  font-family: Raleway;
+  font-size:11.96px;
+  height:20px;
+  margin-top:18px;
+  color:#2FC14F;
+  margin-left:5px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cardn .Price-sec .offer a{
+  text-decoration: none;
+  color:#2FC14F;
+}
+.cardn .Price-sec .btn{
+  width: 30px;
+  font-size:30px;
+  margin-top:5px;
+  background-color: transparent;
+  margin-left:80px;
+  text-decoration: flex-end;
+  border:none;
+  color:#E5DFD9;
+  height:34px;
+  z-index: 1;
+}
